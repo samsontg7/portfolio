@@ -1,0 +1,153 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 87%;
+  height: 7%;
+  top: 400%;
+  left: 200%;
+  gap: 2%;
+  margin-top: 2%;
+}
+
+.head {
+  word-spacing: 100%;
+  color: #090c12;
+  width: hug (258%)px;
+  height: hug (40%)px;
+  gap: 0%;
+  text-align: right;
+  flex-direction: row;
+  align-items: flex-end;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.unique {
+  width: hug (100%)px;
+  height: hug (40%)px;
+  top: 16%;
+  left: 26%;
+  padding: 10px 12px 10px 12px;
+  gap: 0%;
+  margin-left: 7%;
+  margin-top: 0%;
+  color: #6070ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main {
+  width: hug (720%)px;
+  top: 289%;
+  left: 500%;
+  gap: 12%;
+  margin-left: 13%;
+  margin-top: 10%;
+  height: 69vh;
+}
+
+.para {
+  font-size: 120%;
+  text-decoration: #6070ff;
+  color: black;
+  font-weight: bold;
+}
+
+.para:hover {
+  color: black;
+}
+
+.Logo {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  height: 7vh;
+  text-decoration: none;
+}
+
+.name {
+  margin-right: 2%;
+  margin-top: 17%;
+}
+
+.Hizbar {
+  align-self: flex-end;
+  color: #090c12;
+  width: 30%;
+  height: 20%;
+}
+
+body {
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url(./images/back.svg);
+  background-position-x: 10%;
+  background-position-y: 80%;
+  background-size: 80%;
+}
+
+.info li {
+  display: inline;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: burlywood;
+}
+
+.unique h1 {
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Hizbar svg {
+  align-self: flex-end;
+  width: 40px;
+}
+
+.header {
+  color: #091e42;
+  font: bolder;
+  margin-top: 7%;
+  font-size: 230%;
+}
+
+.con {
+  color: #7f8cff;
+  text-shadow: 5%;
+}
+
+.con:hover {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .info {
+    display: none;
+  }
+
+  body {
+    background-image: url(./images/Header\ bg.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .Hizbar {
+    display: none;
+  }
+}
+
+.info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  color: #344563;
+  text-decoration: none;
+}
