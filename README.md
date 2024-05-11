@@ -1,6 +1,6 @@
 <html>
 <h1>📗 Table of Contents</h1>
-<ul><li>
+<ul>
   <pre>
 <b>About the Project</b>
    <p>  this project tries to include unfinished portfolio with an interactive features.
@@ -19,3 +19,4 @@
 </p>
   </pre>
 </html>
+
