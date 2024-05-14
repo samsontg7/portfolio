@@ -85,8 +85,6 @@
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url(./images/back.svg);
-  background-position-x: 10%;
-  background-position-y: 80%;
   background-size: 80%;
 }
 
@@ -129,11 +127,6 @@
   .info {
     display: none;
   }
-
-  body {
-    background-image: url(./images/Header\ bg.png);
-    background-size: cover;
-  }
 }
 
 @media (min-width: 768px) {
@@ -152,13 +145,10 @@
   text-decoration: none;
 }
 
+
 .image1 {
   width: 295px;
   height: 220px;
-  gap: 0;
-  border-radius: 8px 0 0 0;
-  opacity: 0;
-  margin-top: 13%;
 }
 
 #tonic {
@@ -251,10 +241,8 @@
   height: hug (48px)px;
   top: 12px;
   padding: 12px 0 0 0;
-  gap: 10px;
   border-radius: 8px 0 0 0;
   border: 1px 0 0 0;
-  opacity: 0;
   color: 1px solid #6070ff;
 }
 
@@ -307,17 +295,17 @@
   color: #344563;
 }
 
+
 .getmyresume {
   width: hug (162px)px;
   height: hug (48px)px;
   padding: 12px 0 0 0;
-  gap: 10px;
   border-radius: 8px 0 0 0;
   border: 1px 0 0 0;
-  opacity: 0;
   color: #396df2;
   margin-top: 10%;
 }
+
 
 .prolanguages {
   display: flex;
@@ -332,8 +320,7 @@
   padding-left: 0%;
   flex-direction: row;
   justify-content: space-between;
-  gap: 23%;
-  margin-top: 40%;
+  margin-top: 10%;
 }
 
 .jch li {
@@ -351,6 +338,7 @@
   text-align: center;
 }
 
+
 .jch {
   width: 500px;
   height: 66.72px;
@@ -361,20 +349,6 @@
   display: flex;
   justify-content: flex-start;
   margin-right: 10%;
-}
-
-.jar {
-  width: 215px;
-  height: 24px;
-  top: 21px;
-  left: 76px;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  color: #253858;
-  list-style-type: none;
 }
 
 .frame-skill {
