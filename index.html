@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +6,53 @@
 
     <link rel="stylesheet" href="./index.css">
 
-    <link rel="stylesheet" href="./port.css">
-
 </head>
 
 <body>
-    <section>
-        <div class="Logo">
-            <div class="unique">
-                <a href="#">My Logo</a>
-            </div>
-            <nav class="head">
-                <div class="Hizbar">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
-                            fill="#6070FF" />
-                    </svg>
-                </div>
-                <div>
-                    <ul class="info">
-                        <li> <a href="#">Portfolio</a></li>
-                        <li> <a href="#">About</a></li>
-                        <li><a href="#">Contact</a>
-                    </ul>
-                </div>
-            </nav>
+   <section>
+    <div class="sky">
+        <div class="fog">
         </div>
-    </section>
 
+        <nav>
+            <ul class="clear">
+                <li onclick="hideSidebar()"><a href="#"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                                fill="#67798E" />
+                        </svg>
+                    </a></li>
+                <li><a href="#">My Logo </a></li>
+                <li> <a href="#">Portfolio</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul >
+                <li><a href="#">My Logo </a></li>
+                <li class="hide"> <a href="#">Portfolio</a> </li>
+                <li class="hide"> <a href="#">About</a> </li>
+                <li class="hide"><a href="#">Contact</a></li>
+                <li class="style" onclick="showSidebar()"> <a href="#"><svg width="26" height="26"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
+                                fill="#6070FF" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const clear = document.querySelector(".clear")
+                clear.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const clear = document.querySelector(".clear")
+                clear.style.display = 'none'
+            }
+        </script>
+    </div>
+</section>
 
     <section class="man">
 
@@ -48,7 +64,6 @@
                     Glad to See You!
                 </h1>
 
-
                 <pre class="para">
 
 I am a software developer!
@@ -56,12 +71,6 @@ I can help you a product,feature or website
 look through some of my work and experiences!
 if you like what you see and have a project
 you need coded,don't hesitate to contact me.
- 
-
-I am a software developer! I can help you a product,feature or website 
-look through some of my work and experiences! if you like what you see  
-and have a project you need coded,don't hesitate to contact me. 
-
 </pre>
 
                 <div class="con">
@@ -79,51 +88,44 @@ and have a project you need coded,don't hesitate to contact me.
         </section>
 
 
-
-
         <section>
-            <div class="image1">
-                <a href="#"><img src="images/Snapshoot Portfolio.svg" alt="boy background"></a>
-            </div>
-
-            <div>
-                <h1 id="tonic">Tonic</h1>
-                <ul class="canopyback">
-                    <li class="canopy">
-                        Canopy
-                    </li>
-                    <li class="Back">
-                        Back End Dev
-                    </li>
-                    <li class="Back">
-                        2015
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <pre>
-<p class="paragraph">A daily selection of privately
+            <div class="imagesentence1">
+                    <div class="image1">
+                        <a href="#"><img  src="images/Snapshoot Portfolio.svg" alt="boy background" ></a>
+                    </div>
+                <div  class="image1">
+                 
+                        <h1 id="tonic">Tonic</h1>
+                        <ul class="canopyback">
+                            <li class="canopy">
+                                Canopy
+                            </li>
+                            <li class="Back">
+                                Back End Dev
+                            </li>
+                            <li class="Back">
+                                2015
+                            </li>
+                        </ul>           
+<pre class="paragraph">A daily selection of privately
 personalized reads;no accounts or
 sign-ups required. 
-</p>
 </pre>
+                        <ul class="languages">
+                            <li class="lan">HTML</li>
+                            <li class="lan">CSS</li>
+                            <li class="lan">JavaScript</li>
+                        </ul>
+                        <button class="seeproject">See Project</button>
+                </div>
             </div>
-            <div>
-                <ul class="languages">
-                    <li class="lan">HTML</li>
-                    <li class="lan">CSS</li>
-                    <li class="lan">JavaScript</li>
-                </ul>
-            </div>
-            <div class="seeproject">
-                <a href="#"><b>See Project</b></a>
-            </div>
-        </section>
+            </section>
         <section>
-            <div class="image2">
+            <div class="imagesentence1">
+            <div class="image1">
                 <a href="#"><img src="images/Snapshoot Portfolio (1).svg" alt="people background"></a>
             </div>
-            <div>
+            <div class="image1">
                 <h1 id="multi">Multi-Post<br>Stories</h1>
                 <ul class="canopyback">
                     <li class="canopy">
@@ -136,31 +138,29 @@ sign-ups required.
                         2015
                     </li>
                 </ul>
-            </div>
-            <div>
-                <pre>
-<p class="paragraph">A daily selection of privately
+           
+<pre class="paragraph">A daily selection of privately
 personalized reads;no accounts or
 sign-ups required. 
-        </p>
         </pre>
-            </div>
-            <div>
                 <ul class="languages">
                     <li class="lan">HTML</li>
                     <li class="lan">CSS</li>
                     <li class="lan">JavaScript</li>
                 </ul>
+    
+                <button  class="seeproject">See Project</a></button>
             </div>
-            <div class="seeproject">
-                <a href="#"><b>See Project</b></a>
             </div>
         </section>
+
+
         <section>
-            <div class="image3">
+           <div class="imagesentence1">
+            <div class="image1">
                 <a href="#"><img src="images/Snapshoot Portfolio (2).svg" alt="girl background"></a>
-            </div>
-            <div>
+            </div>     
+            <div class="image1">
                 <h1 id="tonic">Tonic</h1>
                 <ul class="canopyback">
                     <li class="canopy">
@@ -173,31 +173,26 @@ sign-ups required.
                         2015
                     </li>
                 </ul>
-            </div>
-            <div>
-                <pre>
-<p class="paragraph">A daily selection of privately
+<pre class="paragraph">A daily selection of privately
 personalized reads;no accounts or
-sign-ups required. 
-        </p>
+sign-ups required.
         </pre>
-            </div>
-            <div>
                 <ul class="languages">
                     <li class="lan">HTML</li>
                     <li class="lan">CSS</li>
                     <li class="lan">JavaScript</li>
                 </ul>
-            </div>
-            <div class="seeproject">
-                <a href="#"><b>See Project</b></a>
-            </div>
+                <a href="#" class="seeproject"><b>See Project</b></a>
+           </div>
+        </div>
         </section>
+
         <section>
-            <div class="image4">
+            <div class="imagesentence1">
+                <div class="image1">
                 <a href="#"><img src="images/Snapshoot Portfolio (3).svg" alt="girl background"></a>
             </div>
-            <div>
+            <div class="image1">
                 <h1 id="multi">Multi-Post<br>Stories</h1>
                 <ul class="canopyback">
                     <li class="canopy">
@@ -209,29 +204,24 @@ sign-ups required.
                     <li class="Back">
                         2015
                     </li>
-                </ul>
-            </div>
-            <div>
-                <pre>
-<p class="paragraph">A daily selection of privately
+                </ul>              
+<pre class="paragraph">A daily selection of privately
 personalized reads;no accounts or
 sign-ups required. 
-    </p>
     </pre>
-            </div>
-            <div>
                 <ul class="languages">
                     <li class="lan">HTML</li>
                     <li class="lan">CSS</li>
                     <li class="lan">JavaScript</li>
                 </ul>
+                <a href="#" class="seeproject"><b>See Project</b></a>
             </div>
-            <div class="seeproject">
-                <a href="#"><b>See Project</b></a>
             </div>
         </section>
 
         <section>
+            <div class="imagesentence1">
+                <div class="image1">
             <h1 class="aboutmy">About My Self</h1>
             <pre class="sehuf">
 Hello,I am a software developer!I can help
@@ -251,9 +241,11 @@ you need coded,don't hesitate to contact me.
                 <a href="https://github.com/samsontg7"> <img src="./images/github.svg" alt="github" /></a>
                 <a href="#"><img src="./images/angellist.svg" alt="angellist" /></a>
             </div>
-            <div class="getmyresume">
-                <a href="#"><b>Get my resume</b></a>
+         
+                <button class="getmyresume">Get my resume</button>
+            
             </div>
+            <div class="image1">
             <div class="drop">
                 <h1 class="prolanguages">languages</h1>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -300,11 +292,35 @@ you need coded,don't hesitate to contact me.
                     </svg>
                 </li>
             </div>
+            </div>
+            </div>
         </section>
-</body>
+        <section class="megenagna">
+            <div class="contact">
+                <h1>contact me</h1>
+            </div>
+            <div class="contactpara">
 
+<pre>If you have an application you 
+are interested in developing,a
+feature that you need built or 
+a project that needs coding.
+I'd love to help with it!
+        </pre>
+            </div>
+            <form action="https://formspree.io/f/mzbnqbjy" method="post">
+                <div class="fill">
+                    <input type="text" name="name" class="name" placeholder="enter your name " required minlength="30">
+                    <input type="text" name="email" class="email" placeholder="enter your email " required
+                        minlength="30">
+                    <textarea name="area" id="area" class="area" placeholder="Write your message here..." require
+                        minlength="30"></textarea>
+                        </div>
+                        </form>
+                        <div class="btn">
+                  <button class="button">Get In Touch</button>
+          </div>
+    </section>
+</body>
 </html>
 
-</body>
-
-</html>
