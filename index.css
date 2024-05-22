@@ -1,0 +1,353 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 87%;
+  height: 7%;
+  top: 400%;
+  left: 200%;
+  gap: 2%;
+  margin-top: 2%;
+}
+
+.head {
+  word-spacing: 100%;
+  color: #090c12;
+  width: hug (258%)px;
+  height: hug (40%)px;
+  gap: 0%;
+  text-align: right;
+  flex-direction: row;
+  align-items: flex-end;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.unique {
+  width: hug (100%)px;
+  height: hug (40%)px;
+  top: 16%;
+  left: 26%;
+  padding: 10px 12px 10px 12px;
+  gap: 0%;
+  margin-left: 7%;
+  margin-top: 0%;
+  color: #6070ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main {
+  width: hug (720%)px;
+  top: 289%;
+  left: 500%;
+  gap: 12%;
+  margin-left: 13%;
+  margin-top: 10%;
+  height: 69vh;
+}
+
+.para {
+  font-size: 90%;
+  text-decoration: #6070ff;
+  color: black;
+  font-weight: bold;
+}
+
+.para:hover {
+  color: black;
+}
+
+.Logo {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  height: 7vh;
+  text-decoration: none;
+}
+
+.name {
+  margin-right: 2%;
+  margin-top: 17%;
+}
+
+.Hizbar {
+  align-self: flex-end;
+  color: #090c12;
+  width: 30%;
+  height: 20%;
+}
+
+.man {
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url(./images/back.svg);
+  background-size: 80%;
+}
+
+.info li {
+  display: inline;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: burlywood;
+}
+
+.unique h1 {
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Hizbar svg {
+  align-self: flex-end;
+  width: 40px;
+}
+
+.header {
+  color: #091e42;
+  font: bolder;
+  margin-top: 7%;
+  font-size: 200%;
+}
+
+.con {
+  color: #7f8cff;
+  text-shadow: 5%;
+}
+
+.con:hover {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .info {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .Hizbar {
+    display: none;
+  }
+}
+
+.info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  color: #344563;
+  text-decoration: none;
+}
+
+.image1 {
+  width: 295px;
+  height: 220px;
+}
+
+#tonic {
+  width: 295px;
+  height: 36px;
+  gap: 0;
+  opacity: 0;
+  font-family:
+    "Inter",
+    sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.canopyback {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  width: hug (236px)px;
+  height: hug (32px)px;
+  margin-top: 0%;
+}
+
+.canopy {
+  font-family:
+    "Inter",
+    sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #344563;
+  margin-top: 0.79%;
+}
+
+.canopyback li {
+  margin-right: 8%;
+}
+
+.Back {
+  width: 90px;
+  height: 16px;
+  padding: 8px 0 8px 0;
+  font-family:
+    "Inter",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #7a869a;
+}
+
+.paragraph {
+  width: 295px;
+  height: 76px;
+  font-family:
+    "Inter",
+    sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.languages li {
+  margin-right: 1%;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.lan {
+  width: hug (57px)px;
+  height: hug (24px)px;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px 0 0 0;
+  background: #ebebff;
+}
+
+.seeproject {
+  width: hug (126px)px;
+  height: hug (48px)px;
+  top: 12px;
+  padding: 12px 0 0 0;
+  border-radius: 8px 0 0 0;
+  border: 1px 0 0 0;
+  color: 1px solid #6070ff;
+}
+
+.image2 {
+  margin-top: 7%;
+}
+
+#multi {
+  width: 295px;
+  height: 80px;
+  font-family:
+    "Inter",
+    sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+  margin-bottom: 7%;
+}
+
+.image3 {
+  margin-top: 7%;
+}
+
+.image4 {
+  margin-top: 7%;
+}
+
+.aboutmy {
+  width: 327px;
+  height: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 15%;
+}
+
+.sehuf {
+  width: 327px;
+  height: 147px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.getmyresume {
+  width: hug (162px)px;
+  height: hug (48px)px;
+  padding: 12px 0 0 0;
+  border-radius: 8px 0 0 0;
+  border: 1px 0 0 0;
+  color: #396df2;
+  margin-top: 10%;
+}
+
+.prolanguages {
+  display: flex;
+  padding-left: 0%;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+
+.drop {
+  display: flex;
+  padding-left: 0%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.jch li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-bottom: 6%;
+  gap: 1%;
+  color: #253858;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: center;
+}
+
+.jch {
+  width: 500px;
+  height: 66.72px;
+  padding: 9px 12px 9.72px 12px;
+  border-radius: 9px 0 0 0;
+  background: #f7f7f9;
+  margin-bottom: 6%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10%;
+}
+
+.frame-skill {
+  margin-left: 1%;
+  gap: 20%;
+}
