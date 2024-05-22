@@ -308,18 +308,37 @@ a project that needs coding.
 I'd love to help with it!
         </pre>
             </div>
-            <form action="https://formspree.io/f/mzbnqbjy" method="post">
+            <form id="contact-form"  action="https://formspree.io/f/mzbnqbjy" method="post">
                 <div class="fill">
-                    <input type="text" name="name" class="name" placeholder="enter your name " required minlength="30">
-                    <input type="text" name="email" class="email" placeholder="enter your email " required
-                        minlength="30">
+                    <input type="text" name="name" class="name" placeholder="enter your name " required maxlength="30">
+                    <input type="text" name="email" class="email" id="email" placeholder="enter your email " required>
+                       
                     <textarea name="area" id="area" class="area" placeholder="Write your message here..." require
-                        minlength="30"></textarea>
+                        maxlength="500"></textarea>
+                        <div id="error-message" class="error-message"></div>
+                        </div>
+                        <div class="btn">
+                            <input type="submit" class="button" value="Get In Touch"></button>
                         </div>
                         </form>
-                        <div class="btn">
-                  <button class="button">Get In Touch</button>
-          </div>
+     <script>
+        const form = document.getElementById('contact-form');
+        const emailInput = document.getElementById('email');
+        const errorMessage = document.getElementById('error-message');
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const email = emailInput.value;
+
+            if (email === email.toLowerCase()) {
+                form.submit();
+            } else {
+                errorMessage.textContent = 'Please enter your email in lowercase.';
+            }
+        });
+    </script>
+                 
     </section>
 </body>
 </html>
